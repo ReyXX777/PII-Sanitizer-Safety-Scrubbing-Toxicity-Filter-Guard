@@ -1,0 +1,7 @@
+# Optional English NER model/runtime. Install spaCy and then its model separately:
+spacy>=3.7
+# python -m spacy download en_core_web_sm
+
+# Optional toxicity model adapter:
+detoxify>=0.5.2
+torch
